@@ -1,0 +1,10 @@
+<h3>Top Heroes</h3>
+
+<div class="heroes-menu">
+  <dx-button *ngFor="let hero of heroes"
+      routerLink="/detail/{{hero.id}}">
+      {{hero.name}}
+  </dx-button>
+</div>
+
+<app-hero-search></app-hero-search>

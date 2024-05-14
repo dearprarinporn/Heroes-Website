@@ -1,0 +1,139 @@
+/* General styles */
+.hero-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.heroes-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: fit-content;
+  margin: auto;
+}
+
+.hero-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #6e2020;
+  width: 100%;
+}
+
+.hero-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* TextBox styles */
+input {
+  padding: 1rem;
+  width: 50%;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+/* Add button styles */
+.add-button {
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  background-color: #61f354;
+  border-radius: 30px;
+}
+
+.add-button:hover {
+  background-color: #72ff6d;
+}
+
+/* Delete button styles */
+button.delete {
+  background-color: #dc3545;
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Badge styles */
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: rgb(255, 255, 255);
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+
+
+
+/* Delete button styles */
+.dx-button.delete {
+  background-color: #dc3545;
+  color: white;
+  font-size: 1rem; /* เพิ่มขนาด font */
+  padding: 12px 25px; /* เพิ่มขนาด padding */
+  margin-left: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease; /* เพิ่ม transition effect */
+}
+
+.dx-button.delete:hover {
+  background-color: #c82333;
+}
+
+.dx-button.delete:active {
+  background-color: #a88585; /* เพิ่มสี background เมื่อกด */
+}
+
+
+
+
+.dx-button.delete {
+  background-color: #dc3545;
+  color: white;
+  font-size: 1rem; /* เพิ่มขนาด font */
+  padding: 12px 25px; /* เพิ่มขนาด padding */
+  margin-left: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease; /* เพิ่ม transition effect */
+}
+
+.dx-button.delete:hover {
+  background-color: #c82333;
+}
+
+.dx-button.delete:active {
+  background-color: #a88585; /* เพิ่มสี background เมื่อกด */
+}
+.delete .dx-icon {
+  font-size: 20px; /* ขนาดของไอคอน */
+  margin-right: 5px; /* การระยะห่างของไอคอนกับข้อความ */
+}
+.dx-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* เพิ่มเว้นวรรคระหว่างปุ่ม */
+}

@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #494949;
+    color: #fff;
+    margin: 0; /* เพิ่มบรรทัดนี้เพื่อลบ margin */
+  }
+  
+  .navbar-logo a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 0; /* เพิ่มบรรทัดนี้เพื่อลบ margin */
+  }
+  
+  .navbar-menu li {
+    margin: 0;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    background-color: #7a7a7a;
+  }
+  

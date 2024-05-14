@@ -1,0 +1,86 @@
+/* DashboardComponent's private CSS styles */
+
+h2 {
+  text-align: center;
+  
+}
+
+.heroes-menu {
+  padding: 0;
+  margin: auto;
+  max-width: 1000px;
+
+  /* flexbox */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+a {
+  background-color: #3f525c;
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  margin: .5rem auto;
+  box-sizing: border-box;
+
+  /* flexbox */
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+@media (min-width: 600px) {
+  a {
+    width: 18%;
+    box-sizing: content-box;
+  }
+}
+
+a:hover {
+  background-color: black;
+}
+
+/* styles.css */
+
+/* ปรับแต่งสไตล์ของ DevExtreme Button */
+.dx-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* เพิ่มเว้นวรรคระหว่างปุ่ม */
+}
+
+.dx-button {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  padding: 12px 30px; /* ปรับค่า padding เพื่อให้ปุ่มดูเป็นรูปสี่เหลี่ยมขนาดเล็กลง */
+  border-radius: 30px;
+  background-color: #494949; /* สีเขียว */
+  color: #fff; /* สีข้อความ */
+  border: 2px solid #007bff00; /* สีขอบปุ่ม */
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงาที่ปุ่ม */
+}
+
+.dx-button:hover {
+  background-color: #adadad; /* สีเขียวเข้ม */
+}
+
+.dx-button:active {
+  background-color: #00000081; /* สีเขียวเข้มขึ้น */
+}

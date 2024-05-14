@@ -1,0 +1,32 @@
+<h3>My Heroes</h3><br>
+
+<div class="hero-form">
+  <label for="new-hero">Hero name:</label><br>
+  <input id="new-hero" #heroName placeholder="Enter hero name" /><br>
+
+  <div class="dx-button-container">
+    <dx-button class="add-button"  (click)="add(heroName.value); heroName.value=''">
+      Add hero
+    </dx-button></div>
+  
+
+
+
+<ul class="heroes-list">
+  <li *ngFor="let hero of heroes" class="hero-item">
+    <dx-button routerLink="/detail/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </dx-button>
+
+    <dx-button 
+    type="danger" 
+    class="delete" 
+    title="delete hero" 
+    (click)="delete(hero)"
+    text="DELETE"
+    icon="dx-icon-delete" 
+    iconPosition="before"> <!-- กำหนดตำแหน่งของไอคอน (before หรือ after ข้อความ) -->
+  </dx-button>
+
+  </li>
+</ul>

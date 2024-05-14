@@ -1,0 +1,27 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0; /* กำหนด margin เป็น 0 */
+    padding: 0; /* กำหนด padding เป็น 0 */
+    background-color: #d1d1d1; /* สีพื้นหลังที่คุณต้องการ */  
+}
+/* styles.css */
+
+/* ... (สไตล์อื่น ๆ ที่คุณได้ปรับแล้ว) ... */
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+    margin-top: 20px; /* ระยะห่างด้านบน */
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+  }
+h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+    margin-top: 20px; /* เพิ่มความห่างด้านบน */
+    margin-bottom: 20px; /* เพิ่มความห่างด้านล่าง */
+    color: #494949;
+  }

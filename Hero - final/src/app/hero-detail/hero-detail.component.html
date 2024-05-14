@@ -1,0 +1,16 @@
+<div *ngIf="hero">
+  <h3>{{hero.name | uppercase}} Details</h3><br>
+
+    <div class="dx-field">
+      <label for="hero-id">Hero ID : {{hero.id}} </label>
+    </div>
+<div class="det">
+    <label for="hero-name">Hero name: {{hero.name}}</label><br><br>
+    <label for="hero-name">Edit Hero name :</label><br>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Enter Hero name"/>
+  </div><br>
+  <div class="dx-button-container">
+    <dx-button  (click)="goBack()">Back</dx-button>
+    <dx-button  (click)="save()">Save</dx-button>
+</div>
+</div>
